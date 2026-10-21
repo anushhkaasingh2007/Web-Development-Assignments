@@ -1,0 +1,177 @@
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #12203a;
+    background-color: #f8faff;
+}
+
+/* MOBILE FIRST DESIGN */
+
+/* Navigation using Flexbox */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 18px;
+    background-color: #12203a;
+    color: white;
+}
+
+nav h2 {
+    font-size: 1.7rem;
+    color: #ffb703;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: #ffb703;
+}
+
+/* Hero Section */
+.hero {
+    display: grid;
+    justify-items: center;
+    gap: 18px;
+    text-align: center;
+    background-color: #2f5bea;
+    color: white;
+    padding: 40px 16px;
+}
+
+.hero h1 {
+    font-size: 1.6rem;
+}
+
+.hero p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+/* Responsive Image */
+.hero img {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background-color: #ffb703;
+    color: #12203a;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+/* Feature Cards with Grid */
+.features {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 20px;
+}
+
+.box {
+    background-color: #eef2ff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #dbeafe;
+}
+
+.box h3 {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+    color: #2f5bea;
+}
+
+.box p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 35px 20px;
+    background-color: #dbeafe;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+/* Footer */
+footer {
+    background-color: #12203a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+/* TABLET VIEW */
+@media (min-width: 768px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 18px 32px;
+    }
+
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+
+    .features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* LAPTOP VIEW */
+@media (min-width: 1024px) {
+
+    .hero {
+        padding: 60px 30px;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .features {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 40px;
+    }
+
+    .box {
+        padding: 35px;
+    }
+}
