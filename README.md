@@ -23,6 +23,6 @@ assignments completed using HTML and CSS.
 - Responsive Design
 
 ## Created By
-Anushka Singh
-B.Tech Computer Science (AI)
-Invertis University, Bareilly
+Anushka Singh,
+B.Tech Computer Science (AI),
+Invertis University (Bareilly)
