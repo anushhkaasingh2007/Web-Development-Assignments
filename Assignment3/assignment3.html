@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Club Registration</title>
+</head>
+<body>
+
+    <h1>Coding Club Registration Form</h1>
+    <p>Fill out the form to join our Coding Club.</p>
+
+    <hr>
+
+    <form action="#" method="get">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password"
+                   name="password" required>
+
+            <br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age"
+                   min="10" max="100">
+
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <label for="course">Select Course:</label>
+
+            <select id="course" name="course" required>
+                <option value="">-- Select Course --</option>
+                <option value="btech">B.Tech</option>
+                <option value="bca">BCA</option>
+                <option value="mca">MCA</option>
+                <option value="other">Other</option>
+            </select>
+
+            <br><br>
+
+            <p>Select Your Year:</p>
+
+            <input type="radio" id="year1"
+                   name="year" value="1" required>
+            <label for="year1">1st Year</label>
+
+            <input type="radio" id="year2"
+                   name="year" value="2">
+            <label for="year2">2nd Year</label>
+
+            <input type="radio" id="year3"
+                   name="year" value="3">
+            <label for="year3">3rd Year</label>
+
+            <input type="radio" id="year4"
+                   name="year" value="4">
+            <label for="year4">4th Year</label>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Coding Interests</legend>
+
+            <p>Choose your interests:</p>
+
+            <input type="checkbox" id="web"
+                   name="interest" value="web">
+            <label for="web">Web Development</label>
+
+            <br>
+
+            <input type="checkbox" id="python"
+                   name="interest" value="python">
+            <label for="python">Python Programming</label>
+
+            <br>
+
+            <input type="checkbox" id="ai"
+                   name="interest" value="ai">
+            <label for="ai">Artificial Intelligence</label>
+
+            <br>
+
+            <input type="checkbox" id="app"
+                   name="interest" value="app">
+            <label for="app">App Development</label>
+
+            <br><br>
+
+            <label for="reason">
+                Why do you want to join the club?
+            </label>
+
+            <br>
+
+            <textarea id="reason" name="reason"
+                      rows="5" cols="40"
+                      placeholder="Write your reason here...">
+            </textarea>
+
+        </fieldset>
+
+        <br>
+
+        <input type="checkbox" id="terms"
+               name="terms" required>
+        <label for="terms">
+            I agree to the terms and conditions.
+        </label>
+
+        <br><br>
+
+        <button type="submit">Register Now</button>
+        <button type="reset">Clear Form</button>
+
+    </form>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Coding Club</p>
+    </footer>
+
+</body>
+</html>
