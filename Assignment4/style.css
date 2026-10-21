@@ -1,0 +1,131 @@
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #263b80;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #172554;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+nav a:hover {
+    color: #facc15;
+    text-decoration: underline;
+}
+
+/* ID Selector */
+#home {
+    background-color: #dbeafe;
+}
+
+/* Class Selector */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 30px;
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+/* Section Styling */
+.section {
+    background-color: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+}
+
+.section h2 {
+    color: #1e40af;
+    margin-bottom: 15px;
+}
+
+/* Course Boxes */
+.course {
+    background-color: #eff6ff;
+    border-left: 5px solid #2563eb;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+.course h3 {
+    color: #1d4ed8;
+    margin-bottom: 8px;
+}
+
+.course:hover {
+    background-color: #dbeafe;
+}
+
+/* Contact Link */
+#contact a {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
